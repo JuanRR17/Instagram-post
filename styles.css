@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+.post{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    /* height:500px; */
+    margin:50px auto;
+}
+
+.post-header{
+    height:100%;
+}
+
+.fa-html5, .fa-ellipsis-vertical{
+    padding:10px;
+    font-size: 30px;
+}
+
+.title{
+    display:block;
+    font-weight: 700;
+}
+
+.post-image{
+    width:100%;
+    object-fit: contain;
+}
+
+.post-body{
+    padding:20px;
+    height: 100%;
+}
+.post-body>div:nth-child(2){
+    margin:20px 0;
+}
+.fa-solid{
+    font-size:40px;
+}
